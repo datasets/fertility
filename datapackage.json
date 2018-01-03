@@ -1,0 +1,95 @@
+{
+    "profile": "tabular-data-package",
+    "title": "Fertility",
+    "name": "fertility",
+    "sources": [
+        {
+            "title": "UCI - Fertility",
+            "path": "https://archive.ics.uci.edu/ml/datasets/Fertility"
+        }
+    ],
+    "licences": [
+        {
+            "name": "odc-pddl",
+            "title": "Open Data Commons Public Domain Dedication and Licence (PDDL)",
+            "path": "http://opendatacommons.org/licenses/pddl/"
+        }
+    ],
+    "resources": [
+        {
+            "path": "data/fertility.csv",
+            "profile": "tabular-data-resource",
+            "encoding": "utf-8",
+            "name": "fertility",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "season",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Season in which the analysis was performed. 1) winter, 2) spring, 3) Summer, 4) fall. (-1, -0.33, 0.33, 1)"
+                    },
+                    {
+                        "name": "age",
+                        "type": "number",
+                        "format": "default",
+                        "description": "Age at the time of analysis. 18-36 (0, 1)"
+                    },
+                    {
+                        "name": "childish-disease",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Childish diseases (ie, chicken pox, measles, mumps, polio) 1) yes, 2) no. (0, 1)"
+                    },
+                    {
+                        "name": "trauma",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Accident or serious trauma 1) yes, 2) no. (0, 1)"
+                    },
+                    {
+                        "name": "surgical-intervention",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Surgical intervention 1) yes, 2) no. (0, 1)"
+                    },
+                    {
+                        "name": "fevers",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "High fevers in the last year 1) less than three months ago, 2) more than three months ago, 3) no. (-1, 0, 1)"
+                    },
+                    {
+                        "name": "alcoholic",
+                        "type": "number",
+                        "format": "default",
+                        "description": "Frequency of alcohol consumption 1) several times a day, 2) every day, 3) several times a week, 4) once a week, 5) hardly ever or never (0, 1)"
+                    },
+                    {
+                        "name": "smoking",
+                        "type": "integer",
+                        "format": "default",
+                        "description": "Smoking habit 1) never, 2) occasional 3) daily. (-1, 0, 1)"
+                    },
+                    {
+                        "name": "sitting",
+                        "type": "number",
+                        "format": "default",
+                        "description": "Number of hours spent sitting per day ene-16\t(0, 1)"
+                    },
+                    {
+                        "name": "output",
+                        "type": "string",
+                        "format": "default",
+                        "description": "Output: Diagnosis normal (N), altered (O)"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        }
+    ]
+}
