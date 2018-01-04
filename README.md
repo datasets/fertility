@@ -1,4 +1,4 @@
-This is dataset containing fertility instances
+This is dataset containing fertility instances.
 
 ## Data
 
@@ -8,21 +8,21 @@ This dataset was found under the name [Fertility Data Set](https://archive.ics.u
 * 10 attributes
 * Missing values : NO
 
-### Output data
-
-Output data is located in directory called `data`
+Data is located in directory called `data`
 
 `data/fertility.csv`
 
 Attributes are the same as they were in input data.
 
-## Scripts
+## Preparation
+
+To get output data downloaded data is used to create csv without any changes.
 
 Python scripts are located in directory `scripts`
 
 `scripts/main.py`
 
-## Licence
+## License
 Licensed under the [Public Domain Dedication and License][pddl] (assuming
 either no rights or public domain license in source data).
 
