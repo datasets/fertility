@@ -26,7 +26,7 @@
                 "fields": [
                     {
                         "name": "season",
-                        "type": "integer",
+                        "type": "number",
                         "format": "default",
                         "description": "Season in which the analysis was performed. 1) winter, 2) spring, 3) Summer, 4) fall. (-1, -0.33, 0.33, 1)"
                     },
@@ -76,7 +76,7 @@
                         "name": "sitting",
                         "type": "number",
                         "format": "default",
-                        "description": "Number of hours spent sitting per day ene-16\t(0, 1)"
+                        "description": "Number of hours spent sitting per day ene-16 (0, 1)"
                     },
                     {
                         "name": "output",
